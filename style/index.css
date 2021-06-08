@@ -4,6 +4,24 @@
    v2.0 | 20110126
    Licese: none (c )
 */
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  h1.head {
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+   
+    font-size:1vh;
+  }
+  a.head {
+    align-self: auto;
+  }
+  
+}
+
+*:focus{
+  outline: none;
+  border: 3px dotted orange;
+ }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
